@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang ="de">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Terminbuchung</title>
+    <link rel="icon" type="image/jpg" href="/Users/jessicabenker/Desktop/UNI HMa/Semester No4/WEB Gröschel/Sprint 2/gruppenicon.jpg">
+  </head>
+
+  <body style="background-color: #FFFAF0">
+    <h1 style="color:#D2691E">Terminanfrage</h1>
+    <form>
+      <h3 style="color:#F4A460">Bitte geben Sie Ihre Kontaktdaten an:</h3>
+      <label for="nachname">Nachname:</label><br>
+      <input type="text" name="nachname" autocomplete="on" required><br><br>
+      <label for="vorname">Vorname:</label><br>
+      <input type="text" name="vorname" autocomplete="on" required><br><br>
+      <label for="firma">Firma:</label><br>
+      <input type="text" name="firma" autocomplete="on" required><br><br>
+      <label for="eMail">eMail:</label><br>
+      <input type="email" name="eMail" autocomplete="on" required><br><br>
+      <label for="telefonnummer">Telefonnummer:</label><br>
+      <input type="tel" name="telefonnummer" autocomplete="on" required><br><br>
+
+      <h3 style="color:#F4A460">Wählen Sie aus, welche Leistung Sie gerne in Anspruch nehmen möchten:</h3>
+      <input type="checkbox">Erstellung eines Hygieneplans<br>
+      <input type="checkbox">Online Seminar: Hygiene-Weiterbildung für <em>Medizinische Fachangestellte und Arzthelfer</em><br>
+      <input type="checkbox">Online Seminar: Hygiene-Weiterbildung für <em>Zahnmedizinische Fachangestellte und Zahnarzthelfer</em><br>
+      <input type="checkbox">Hygiene-Weiterbildung für <em>Medizinische Fachangestellte in Einrichtungen für ambulantes Operieren</em><br>
+      <input type="checkbox">Inhouse-Schulung<br><br>
+
+      <h3 style="color:#F4A460">Datum:</h3>
+      <input type="date" value="datum"><br><br>
+
+      <div>
+        <h3 style="color:#F4A460">Anmerkungen: </h3>
+        <textarea id="text" name="text" cols="80" rows="10"></textarea>
+      </div>
+      <br>
+      <br>
+      <p>
+        <input type="checkbox" required>Ich stimme der Speicherung meiner Daten zu.
+      </p>
+
+      <p>
+        <input type="submit" value="Abbrechen" width="50px" height="50px">
+        <input type="submit" value="Abschicken" width="50px" height="50px">
+      </p><br><br>
+      <p><a href="index.html">Zurück zur Startseite</a></p>
+
+    </form>
+
+  </body>
+</html>
